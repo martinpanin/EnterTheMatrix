@@ -86,3 +86,12 @@ body {
 .vimeo{
   background-color:#00b9d8;
 }
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}
