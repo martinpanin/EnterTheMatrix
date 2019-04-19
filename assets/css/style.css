@@ -95,3 +95,30 @@ ul {
 li {
   display: inline;
 }
+
+.container{
+  flex:1 33%;
+  display: flex;
+  flex-flow: row;
+}
+
+.start{
+  flex:1;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+}
+
+.mid{
+  flex:1;
+  display: flex;
+  flex-flow: column;
+  justify-content: сcenter;
+}
+
+.end{
+  flex:1;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-end;
+}
