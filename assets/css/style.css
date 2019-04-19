@@ -87,11 +87,40 @@ body {
   background-color:#00b9d8;
 }
 
+/*HEADER*/
+
 ul {
   margin: 0;
   padding: 0;
+  text-decoration: none;
+
 }
+ul li:not(:last-child):after {
+  content: "|";
+  margin: 5px;
+  text-decoration: none;
+
+  }
 
 li {
   display: inline;
+  text-decoration: none;
+}
+
+/*FOOTER*/
+footer {
+  background: 464646;
+  background-size: cover;
+  overflow: auto;
+}
+
+/*MAIN*/
+.textstyle {
+font-family: 'Quicksand', sans-serif;
+}
+
+.copyright {
+font-family: 'Quicksand', sans-serif;
+font-size: 16px;
+color: white;
 }
