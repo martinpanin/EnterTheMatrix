@@ -87,11 +87,32 @@ body {
   background-color:#00b9d8;
 }
 
+/*HEADER*/
+
 ul {
   margin: 0;
   padding: 0;
 }
+ul li:not(:last-child):after {
+  content: "|";
+
+  }
 
 li {
   display: inline;
+}
+
+/*FOOTER*/
+footer {
+  background:
+}
+
+/*MAIN*/
+.textstyle {
+font-family: 'Quicksand', sans-serif;
+}
+
+.copyright {
+font-family: 'Quicksand', sans-serif;
+font-size: 16px;
 }
