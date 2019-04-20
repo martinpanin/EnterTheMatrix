@@ -97,12 +97,8 @@ ul {
 }
 ul li:not(:last-child):after {
   content: "|";
-<<<<<<< HEAD
   margin: 5px;
   text-decoration: none;
-=======
->>>>>>> 1050b3a40ab09f57aec533923cbe44b58465bd13
-
   }
 
 li {
@@ -130,7 +126,7 @@ color: white;
 
 /*FOOTER*/
 footer {
-  background:
+  background:#464646;
 }
 
 /*MAIN*/
