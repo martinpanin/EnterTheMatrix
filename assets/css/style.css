@@ -138,3 +138,31 @@ font-family: 'Quicksand', sans-serif;
 font-family: 'Quicksand', sans-serif;
 font-size: 16px;
 }
+
+.container{
+  text-align: center;
+  flex:1;
+  display: flex;
+  flex-flow: row;
+}
+
+.start{
+  flex:1;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+}
+
+.mid{
+  flex:1;
+  display: flex;
+  flex-flow: column;
+  justify-content: сcenter;
+}
+
+.end{
+  flex:1;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-end;
+}
