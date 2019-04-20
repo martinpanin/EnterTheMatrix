@@ -130,6 +130,23 @@ color: white;
     filter: brightness(0) invert(1);
 }
 
+.containerfooter {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.footerbox1 {
+  order: 0;
+  flex-grow: 1;
+}
+.footerbox2 {
+  flex-grow: 2;
+}
+.footerbox3 {
+  flex-grow: 1;
+}
 /*MAIN*/
 .textstyle {
 font-family: 'Quicksand', sans-serif;
