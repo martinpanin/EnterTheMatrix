@@ -108,9 +108,26 @@ li {
 
 /*FOOTER*/
 footer {
-  background: 464646;
+  background:#464646;
   background-size: cover;
   overflow: auto;
+}
+
+.facebook1 {
+color: white;
+}
+
+.youtube1{
+color: white;
+}
+
+.vk1{
+color: white;
+}
+
+.logofooter {
+  -webkit-filter: brightness(0) invert(1);
+    filter: brightness(0) invert(1);
 }
 
 /*MAIN*/
@@ -124,10 +141,6 @@ font-size: 16px;
 color: white;
 }
 
-/*FOOTER*/
-footer {
-  background:#464646;
-}
 
 /*MAIN*/
 .textstyle {
