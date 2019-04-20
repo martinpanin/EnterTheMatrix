@@ -140,12 +140,16 @@ color: white;
 .footerbox1 {
   order: 0;
   flex-grow: 1;
+  justify-content: flex-start;
+
 }
 .footerbox2 {
   flex-grow: 2;
+  justify-content: center;
 }
 .footerbox3 {
   flex-grow: 1;
+  justify-content: flex-end;
 }
 /*MAIN*/
 .textstyle {
