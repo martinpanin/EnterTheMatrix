@@ -133,9 +133,73 @@ header {
   justify-content: flex-end;
   margin-right: 30px;
 }
-.logoheader:hover {
 
-}
+  .header-logo figure {
+  	position: relative;
+  }
+  .header-logo figure::before {
+  	position: absolute;
+  	top: 0;
+  	left: -75%;
+  	z-index: 2;
+  	display: block;
+  	content: '';
+  	width: 50%;
+  	height: 100%;
+  	background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+  	background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+  	-webkit-transform: skewX(-25deg);
+  	transform: skewX(-25deg);
+  }
+  .header-logo figure:hover::before {
+  	-webkit-animation: shine .75s;
+  	animation: shine .75s;
+  }
+  @-webkit-keyframes shine {
+  	100% {
+  		left: 125%;
+  	}
+  }
+  @keyframes shine {
+  	100% {
+  		left: 125%;
+  	}
+  }
+
+  .select-box {
+    position : relative;
+    max-width:  20em;
+    width: 100%;
+  }
+
+  .select,
+  .label {
+    color: #bfbfbf;
+    display: block;
+    font: 400 17px/2em 'Quicksand', sans-serif;
+    cursor: pointer;
+  }
+
+  .select {
+    content: "▼"
+    width: 100%;
+    position: absolute;
+    top: 0;
+    padding: 5px 0;
+    height: 40px;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    background: none transparent;
+    border: 0 none;
+  }
+  .select-box1 {
+    background: white;
+  }
+
+  .label {
+    padding: 5px 10px;
+    cursor: pointer;
+  }
 
 /*FOOTER*/
 footer {
@@ -145,17 +209,20 @@ footer {
 }
 
 .facebook1 {
+cursor: pointer;
 color: white;
 margin-left: 10px;
 }
 
 .youtube1{
+cursor: pointer;
 color: white;
 margin-left: 10px;
 margin-right: 10px;
 }
 
 .vk1{
+cursor: pointer;
 color: white;
 margin-right: 10px;
 }
@@ -211,10 +278,10 @@ font-family: 'Quicksand', sans-serif;
 
 .copyright {
 font-family: 'Quicksand', sans-serif;
-font-size: 16px;
+font-size: 14px;
 }
 
-.textmenu{
+.textmenu {
   font-family: 'Quicksand', sans-serif;
   text-decoration: none;
   color: #bfbfbf;
@@ -224,6 +291,7 @@ font-size: 16px;
   color:#3ac1c8;
   opacity: 1;
 }
+
 
 .textmenu a:active {
   color: #FFCA00;

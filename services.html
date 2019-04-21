@@ -13,8 +13,9 @@
   <body>
     <header class="containerheader">
 
-      <section class="headerbox1 logoheader">
-        <img src="assets/img/logo.svg" alt="logo" width="100" height="150">
+      <section class="headerbox1 header-logo">
+        <div> <figure> <img src="assets/img/logo.svg" alt="logo" width="100" height="150"></figure>
+  </div>
       </section>
 
       <section class="textstyle headerbox2 textmenu">
@@ -28,12 +29,14 @@
         </ul>
       </section>
 
-      <section class="headerbox3">
-          <select data-width="fit">
-          <option data-content='ru'>ru</option>
-          <option  data-content=eng>eng</option>
-          </select>
-      </section>
+          <div class="select-box headerbox3">
+            <label for="select-box1" class="label select-box1"><span class="label-desc">RU</span> </label>
+            <select id="select-box1" class="select">
+              <option value="Choice 1">RU</option>
+              <option value="Choice 2">ENG</option>
+              <option value="Choice 3">EST</option>
+            </select>
+          </div>
 
       <section>
       </section>
