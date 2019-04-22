@@ -317,6 +317,7 @@ font-size: 14px;
   width:400px;
 }
 
+<<<<<<< HEAD
 .pic p {padding: 0px 120px;}
 
 .lightgrey-section {
@@ -339,4 +340,9 @@ text-decoration: none;
 
 .socialmedia {
 align-items: center;
+=======
+.pic p {
+  padding: 0px 120px;
+  text-align: left;
+>>>>>>> 2de3cdd1cd5ae25fce135f7615c6bffbf4939675
 }
