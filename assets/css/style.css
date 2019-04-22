@@ -355,8 +355,9 @@ align-items: center;
   text-align: left;
 
 }
-
+/*CONTACTS PAGE? CAN BE DELETED*/
 .partner_logos {
+  display:flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -365,10 +366,9 @@ align-items: center;
 }
 .partner_logo_box1{
   flex-grow: 1;
-  justify-content: center;
-  display: flex;
   margin-left: 30px;
 }
+<<<<<<< HEAD
 .partner_logo_box2 {}
 .partner_logo_box3 {}
 .partner_logo_box4 {}
@@ -408,3 +408,16 @@ ul.textmenu.headtext {
 }
 
 .fototext p {font-size: 20px}
+=======
+.partner_logo_box2 {
+  flex-grow: 2;
+  margin-left: 30px;
+}
+.partner_logo_box3 {
+  flex-grow: 3;
+margin-left: 30px;}
+
+.partner_logo_box4 {
+  flex-grow: 4;
+margin-left: 30px;}
+>>>>>>> f5a9e9d5c1b3c2439adb9ab6b50c525fc86093e1
