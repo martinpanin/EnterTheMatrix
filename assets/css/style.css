@@ -407,7 +407,11 @@ ul.textmenu.headtext {
   color: #08c2ef;
 }
 
-.fototext p {font-size: 20px}
+.fototext p {
+  font-size: 20px
+}
+
+
 =======
 .partner_logo_box2 {
   flex-grow: 2;
