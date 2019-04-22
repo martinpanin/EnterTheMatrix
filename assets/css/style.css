@@ -341,9 +341,10 @@ h2 {
 
 }
 .profilephoto {
+  width:200px;
   border-radius: 50%;
   display: inline-block;
- align-items: center;
+  align-items: center;
 }
 
 .socialmedia {
