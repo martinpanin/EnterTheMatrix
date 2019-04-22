@@ -346,6 +346,23 @@ h2 {
   align-items: center;
 }
 
+.cropp {
+    width: 250px;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.portfoto {
+  display: inline;
+  margin: 0 auto;
+  margin-top: -50px;
+  margin-left: -320px; //centers the image
+  height: 100%;
+  width: auto;
+}
+
+
 .socialmedia {
 align-items: center;
 }
