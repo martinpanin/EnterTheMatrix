@@ -340,9 +340,10 @@ h2 {
 
 }
 .profilephoto {
+  width:200px;
   border-radius: 50%;
   display: inline-block;
- align-items: center;
+  align-items: center;
 }
 
 .socialmedia {
@@ -367,6 +368,51 @@ align-items: center;
   flex-grow: 1;
   margin-left: 30px;
 }
+<<<<<<< HEAD
+.partner_logo_box2 {}
+.partner_logo_box3 {}
+.partner_logo_box4 {}
+
+  .headbox {
+    display: flex;
+    justify-content: space-between;
+  }
+
+.headtext{
+  padding-right: 160px
+}
+
+ul.textmenu.headtext {
+    font-size: 28px;
+}
+
+.fototext{
+  background-color: #e0e0e070;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.foto{
+  border-radius: 50%;
+  padding: 130px 0px;
+}
+
+.vlad {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: #08c2ef;
+}
+
+.fototext p {
+  font-size: 20px
+}
+
+
+=======
 .partner_logo_box2 {
   flex-grow: 2;
   margin-left: 30px;
@@ -378,3 +424,4 @@ margin-left: 30px;}
 .partner_logo_box4 {
   flex-grow: 4;
 margin-left: 30px;}
+>>>>>>> f5a9e9d5c1b3c2439adb9ab6b50c525fc86093e1
