@@ -355,8 +355,9 @@ align-items: center;
   text-align: left;
 
 }
-
+/*CONTACTS PAGE? CAN BE DELETED*/
 .partner_logos {
+  display:flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -365,10 +366,16 @@ align-items: center;
 }
 .partner_logo_box1{
   flex-grow: 1;
-  justify-content: center;
-  display: flex;
   margin-left: 30px;
 }
-.partner_logo_box2 {}
-.partner_logo_box3 {}
-.partner_logo_box4 {}
+.partner_logo_box2 {
+  flex-grow: 2;
+  margin-left: 30px;
+}
+.partner_logo_box3 {
+  flex-grow: 3;
+margin-left: 30px;}
+
+.partner_logo_box4 {
+  flex-grow: 4;
+margin-left: 30px;}
