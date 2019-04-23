@@ -287,7 +287,12 @@ font-size: 14px;
 .textmenu {
   font-family: 'Quicksand', sans-serif;
   text-decoration: none;
-  color: #bfbfbf;
+  color: #3ac1c8;
+  font-size: 20px;
+}
+
+.textmenu1{
+  font-size: 17px;
 }
 
 .textmenu a:hover {
@@ -331,6 +336,8 @@ color: #3ac1c8;
 font-family: 'Quicksand', sans-serif;
 text-decoration: none;
 }
+.h2 { font-size: 17px;}
+.h2.1{font-size: 15px;}
 h2 {
   text-align: center;
   font-size: 10px;
@@ -338,9 +345,9 @@ h2 {
   font-family: 'Quicksand', sans-serif;
   text-decoration: none;
 
+
 }
 .profilephoto {
-  width:200px;
   border-radius: 50%;
   display: inline-block;
   align-items: center;
