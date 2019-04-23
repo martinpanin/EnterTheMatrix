@@ -409,6 +409,7 @@ ul.textmenu.headtext {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 10px 40px 50px;
 }
 
 .foto{
@@ -426,6 +427,10 @@ ul.textmenu.headtext {
 
 .fototext p {
   font-size: 20px
+}
+
+h6{
+  text-indent: 50px;
 }
 
 
