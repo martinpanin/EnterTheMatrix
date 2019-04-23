@@ -434,6 +434,25 @@ h6{
 }
 
 
+table{
+  width: 250px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.table{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  background-color: #e0e0e070;
+  padding-bottom: 130px;
+}
+
+.knopka {
+  background-color: white;
+  padding: 20px 0px;
+}
+
 =======
 .partner_logo_box2 {
   flex-grow: 2;
